@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표현주의 - 미술 사조 조사</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="detail-container">
+        <a href="index.html" class="back-button">← 메인으로</a>
+        
+        <header class="detail-header">
+            <h1>표현주의</h1>
+            <p class="student-info">조사자: 20121 전현서</p>
+        </header>
+        
+        <div class="artwork-section">
+            <div class="artwork-image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/The_Scream.jpg" alt="절규 - 에드바르 뭉크">
+            </div>
+            
+            <div class="artwork-info">
+                <h2>절규 (The Scream)</h2>
+                <p class="artist">에드바르 뭉크 (Edvard Munch), 1893</p>
+                
+                <div class="description">
+                    <h3>작품 설명</h3>
+                    <p>에드바르 뭉크의 '절규'는 표현주의 미술의 가장 상징적인 작품 중 하나입니다. 이 작품은 인간의 내면적 불안, 공포, 그리고 존재적 고뇌를 강렬한 색채와 왜곡된 형태로 표현했습니다. 뭉크는 외부 현실을 객관적으로 재현하는 대신, 주관적인 감정과 내적 경험을 시각화하는 데 집중했습니다.</p>
+                    <p>작품 중앙의 인물은 극도의 공포와 불안을 표현하며, 배경의 휘어지는 하늘과 강렬한 주황색은 작가의 내적 감정 상태를 반영합니다. 뭉크는 "나는 자연을 통해 내 영혼을 표현한다"고 말했으며, 이 작품은 바로 그러한 표현주의의 핵심을 보여줍니다. 왜곡된 선과 강렬한 색채 대비는 관람자에게 강한 감정적 충격을 전달하며, 현대 사회의 소외와 불안을 예술적으로 형상화한 작품으로 평가받습니다.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="question-section">
+            <h3>궁금한 점</h3>
+            <textarea 
+                id="question-expressionism" 
+                placeholder="이 작품이나 표현주의에 대해 궁금한 점을 남겨주세요..."
+                rows="5"
+            ></textarea>
+            <button onclick="saveQuestion('expressionism')">저장하기</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

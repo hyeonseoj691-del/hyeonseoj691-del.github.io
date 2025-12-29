@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인상주의 - 미술 사조 조사</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="detail-container">
+        <a href="index.html" class="back-button">← 메인으로</a>
+        
+        <header class="detail-header">
+            <h1>인상주의</h1>
+            <p class="student-info">조사자: 20112 양희재</p>
+        </header>
+        
+        <div class="artwork-section">
+            <div class="artwork-image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Claude_Monet%2C_Impression%2C_soleil_levant.jpg" alt="인상, 해돋이 - 클로드 모네">
+            </div>
+            
+            <div class="artwork-info">
+                <h2>인상, 해돋이 (Impression, Sunrise)</h2>
+                <p class="artist">클로드 모네 (Claude Monet), 1872</p>
+                
+                <div class="description">
+                    <h3>작품 설명</h3>
+                    <p>클로드 모네의 '인상, 해돋이'는 인상주의라는 명칭의 직접적인 유래가 된 작품입니다. 1874년 첫 인상주의 전시회에서 이 작품을 본 비평가가 "인상주의자들의 전시회"라고 비꼬며 명명한 것이 오늘날까지 사용되는 '인상주의'라는 용어의 시작입니다.</p>
+                    <p>이 작품은 르아브르 항구의 아침 풍경을 그린 것으로, 짙은 안개 속에서 떠오르는 태양과 그 반사광을 빠른 붓터치로 포착했습니다. 모네는 순간적인 빛의 변화와 색채의 인상을 캔버스에 담아내는 데 집중했으며, 전통적인 아카데미 미술의 정밀한 묘사 대신 느낌과 인상을 우선시했습니다. 이 작품은 인상주의의 핵심 원칙인 '순간의 포착'과 '빛과 색채의 표현'을 완벽하게 보여줍니다.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="question-section">
+            <h3>궁금한 점</h3>
+            <textarea 
+                id="question-impressionism" 
+                placeholder="이 작품이나 인상주의에 대해 궁금한 점을 남겨주세요..."
+                rows="5"
+            ></textarea>
+            <button onclick="saveQuestion('impressionism')">저장하기</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
